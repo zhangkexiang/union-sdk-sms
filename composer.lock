@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "d93f47b6e05acedad604b79f8c632d46",
+    "content-hash": "dc43d8e9d876125bc303e4f3a04cab33",
+    "packages": [
+        {
+            "name": "laravel-dev-common/union-config",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zhangkexiang/union-config.git",
+                "reference": "2f4578861a006589363cf792bbc64dd9319728f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.phpcomposer.com/files/zhangkexiang/union-config/2f4578861a006589363cf792bbc64dd9319728f9.zip",
+                "reference": "2f4578861a006589363cf792bbc64dd9319728f9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "util",
+            "autoload": {
+                "classmap": [],
+                "files": [
+                    "src/union-functions.php"
+                ],
+                "psr-4": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "coding",
+                    "email": "zhangkexiang@qingdao1024.com"
+                }
+            ],
+            "description": "Laravel dev config util",
+            "homepage": "https://github.com/zhangkexiang/union-config",
+            "keywords": [
+                "config",
+                "util"
+            ],
+            "time": "2016-12-27 09:28:19"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.5.9"
+    },
+    "platform-dev": []
+}

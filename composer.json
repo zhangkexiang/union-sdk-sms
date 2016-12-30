@@ -1,0 +1,38 @@
+{
+    "name": "laravel-dev-common/union-sdk-sms",
+    "description": "Laravel dev sms sdk util",
+    "type":"util",
+    "keywords": ["laravle","sms","sdk","util"],
+    "license": "MIT",
+    "homepage": "https://github.com/zhangkexiang/union-sdk-sms",
+    "authors": [
+        {
+            "name": "coding",
+            "email": "zhangkexiang@qingdao1024.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel-dev-common/union-config":"*"
+    },
+    "replace": {
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "files": [
+        ],
+        "psr-4": {
+            "Union\\Sdk\\Sms\\": "src/"
+        }
+    },
+    "suggest": {
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
+
