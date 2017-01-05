@@ -1,7 +1,9 @@
 <?php
 
 namespace Union\Sdk\Sms;
-use Union\Sdk\Sms\RpcAcsRequest;
+
+use Union\Sdk\AliCore\RpcAcsRequest;
+
 
 class SingleSendSmsRequest extends RpcAcsRequest
 {

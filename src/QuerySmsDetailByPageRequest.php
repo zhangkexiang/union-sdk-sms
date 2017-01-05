@@ -18,7 +18,7 @@
  * under the License.
  */
 namespace Union\Sdk\Sms;
-use Union\Sdk\Sms\RpcAcsRequest;
+use Union\Sdk\AliCore\RpcAcsRequest;
 
 class QuerySmsDetailByPageRequest extends RpcAcsRequest
 {
